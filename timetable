@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Time Table</title>
+</head>
+<body>
+	<table border="1" cellspacing="5" cellpadding="5" align="center">
+		<tr>
+			<caption><b>Time-Table</b></caption>
+			<b><th></th>
+			<th>1</th>
+			<th>2</th>
+			<th></th>
+			<th>3</th>
+			<th>4</th>
+			<th>5</th>
+			<th>6</th>
+			<th>7</th></b>
+		</tr>
+		<tr>
+		<td>DAY/TIME</td>
+		<td>9:00AM-9:55AM</td>
+		<td>10:00AM-10:55AM</td>
+		<td>10:55AM-11:15AM</td>
+		<td>11:15AM-12:10PM</td>
+		<td>12:10PM-01:10PM</td>
+		<td>01:05PM-2:00PM</td>
+		<td>2:05PM-3:00PM</td>
+		<td>03:05PM-4:00PM</td>
+		</tr>
+		<tr>
+			<td>MONDAY</td>
+		<td>DE</td>
+		<td>GTC</td>
+		<td rowspan="5" bgcolor="#F39C12">TEA BREAK</td>
+		<td>DE-2</td>
+		<td bgcolor="#F39C12">LUNCH BREAK</td>
+		<td>IT</td>
+		<td colspan="2">AT</td>
+		</tr>
+		<tr>
+		<td>TUESDAY</td>
+		<td>OOAD</td>
+		<td>DE</td>
+		<td colspan="2">IT LAB</td>
+		<td bgcolor="#F39C12">LUNCH BREAK</td>
+		<td colspan="2">AT</td>
+		</tr>
+		<tr>
+			<td>WEDNESDAY</td>
+			<td colspan="2">NP LAB</td>
+			<td>DE-2</td>
+			<td rowspan="3" bgcolor="#F39C12">LUNCH BREAK</td>
+			<td>GTC</td>
+			<td>DE</td>
+			<td bgcolor="#FFFF00">CCH</td>
+		</tr>
+		<tr>
+			<td>THURSDAY</td>
+			<td colspan="2">IT LAB</td>
+			<td>GTC</td>
+			<td>OOAD</td>
+			<td colspan="2">SSH</td>
+		</tr>
+		<tr>
+			<td>FRIDAY</td>
+			<td>OOAD</td>
+		    <td bgcolor="#FFFF00">LIBRARY</td>
+		    <td>DE-2</td>
+		    <td>GTC</td>
+		    <td colspan="2">NP LAB</td>
+		</tr>
+	</table>
+	<style>
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 1000px;
+  height: 600px;
+}
+
+th {
+  height: 80px;
+  text-align: center;
+}
+td {
+	height:80px;
+	text-align: center;
+}
+
+</style>
+</body>
+</html>
