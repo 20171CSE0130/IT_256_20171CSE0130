@@ -1,5 +1,0 @@
-﻿HELLO WORLD
- IT LAB
- Lab 2
-
- Edited in master
